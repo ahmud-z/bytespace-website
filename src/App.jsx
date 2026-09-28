@@ -1,11 +1,11 @@
-import React from 'react';
+import LandingPage from "./pages/LandingPage";
 
-const App = () => {
+function App() {
   return (
-    <div>
-
-    </div>
+    <main>
+      <LandingPage />
+    </main>
   );
-};
+}
 
 export default App;
