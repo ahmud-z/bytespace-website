@@ -5,7 +5,7 @@ import { Link } from "react-router";
 export default function Navbar() {
     return (
         <nav className="relative z-50 ">
-            <div className="mx-auto flex h-23 max-w-6xl items-center justify-between px-6">
+            <div className="mx-auto flex h-23 max-w-6xl justify-between items-center  px-6">
 
                 {/* Logo */}
                 <div className="flex items-center gap-2">
@@ -15,7 +15,7 @@ export default function Navbar() {
                 </div>
 
                 {/* Navigation */}
-                <div className="hidden items-center gap-8 text-sm md:flex">
+                <div className="hidden items-center gap-8 text-md md:flex">
                     <a href="#" className="text-white">
                         Home
                     </a>
@@ -30,14 +30,9 @@ export default function Navbar() {
                 </div>
 
                 {/* Right */}
-                <div className="flex items-center gap-7 text-sm">
-                    <button className="hidden md:block">
-                        Sign In
-                    </button>
-
-                    <button>
-                        Join Us
-                    </button>
+                <div className="flex items-center gap-7 text-md text-white/70">
+                    <Link className="hidden md:block hover:text-white" to={"/register"}>Sign In</Link>
+                    <Link className="hidden md:block hover:text-white" to={"/register"}>Join Us</Link>
 
                     <span>
                         <img src="shopping-bag-icon.png" alt="" />
