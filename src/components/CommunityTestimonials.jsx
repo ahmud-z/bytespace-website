@@ -1,91 +1,76 @@
 import React from "react";
 
-const testimonials = [
-    {
-        name: "Sarah M.",
-        role: "Enthusiastic Learner",
-        image:
-            "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=150&h=150&fit=crop&crop=face",
-        text: `"ByteSpace has transformed my approach to learning. The diverse range of courses and the quality of content provided by creators have exceeded my expectations. The platform truly fosters a sense of community and lifelong learning."`,
-    },
-    {
-        name: "James L.",
-        role: "Lifelong Learner",
-        image:
-            "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-        text: `"I've tried several online learning platforms, and ByteSpace stands out for its vibrant community and the variety of courses available. The easy navigation and engaging content make it a go-to platform for continuous skill development."`,
-    },
-    {
-        name: "Alex B.",
-        role: "Inspired Creator",
-        image:
-            "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
-        text: `"As a creator, ByteSpace has been a game-changer for me. The Course Editor is user-friendly, and the support from the community is incredible. It's fulfilling to see my courses making a positive impact on learners globally."`,
-    },
-];
+import { testimonials } from "../data/testimonials";
 
 const CommunityTestimonials = () => {
     return (
-        <section className="relative overflow-hidden bg-white px-6 py-16 sm:px-10 lg:px-[9%] lg:py-[58px]">
-            {/* Background glow */}
-            <div className="pointer-events-none absolute inset-0">
-                <div className="absolute -left-20 bottom-[-100px] h-[380px] w-[380px] rounded-full bg-blue-200/70 blur-[100px]" />
+        <section className="relative overflow-hidden bg-white py-20">
+            {/* Background glows */}
+            <div className="pointer-events-none absolute left-1/2  size-[220px] -translate-x-1/2 rounded-full bg-[#D4FB20] blur-[90px]" />
 
-                <div className="absolute left-[42%] top-[-130px] h-[350px] w-[350px] rounded-full bg-lime-200/80 blur-[100px]" />
+            <div className="pointer-events-none absolute -bottom-50 -left-40 h-[500px] w-[550px] rounded-full bg-blue-200/80 blur-[110px]" />
 
-                <div className="absolute right-[-100px] top-[100px] h-[350px] w-[350px] rounded-full bg-lime-100/70 blur-[100px]" />
-            </div>
+            <div className="pointer-events-none absolute bottom-40 -right-60 h-[500px] w-[550px] rounded-full bg-[#D4FB20]/35 blur-[110px]" />
 
-            <div className="relative z-10 mx-auto max-w-[1200px]">
-                {/* Header */}
-                <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+            <div className="relative section-container">
+
+                {/* Heading + Description */}
+                <div className="grid items-center gap-10 px-6 xl:px-0 md:text-left lg:grid-cols-2">
+                    {/* Heading */}
                     <div>
-                        <h2 className="max-w-[390px] text-[32px] font-bold leading-[1.12] tracking-[-1.2px] text-black sm:text-[40px]">
+                        <h2 className="max-w-xl text-4xl font-semibold leading-[1.15] tracking-tight text-black md:text-5xl">
                             Discover What Our
                             <br />
                             Community Is Saying
                         </h2>
                     </div>
 
-                    <div className="max-w-[540px] lg:pt-1">
-                        <p className="text-[13px] leading-[1.65] text-gray-600 sm:text-[14px]">
-                            At ByteSpace, our vibrant community of learners and creators is
-                            at the heart of what we do. Hear directly from those who have
-                            experienced the transformative journey of learning and creating
-                            on our platform. Explore testimonials that reflect the diverse
-                            perspectives of enthusiastic learners and accomplished creators.
+                    {/* Description */}
+                    <div className="lg:pl-8">
+                        <p className="max-w-xl text-sm leading-8 text-gray-500 md:text-base">
+                            At ByteSpace, our vibrant community of learners and
+                            creators is at the heart of what we do. Hear directly
+                            from those who have experienced the transformative
+                            journey of learning and creating on our platform.
+                            Explore testimonials that reflect the diverse
+                            perspectives of enthusiastic learners and accomplished
+                            creators.
                         </p>
                     </div>
                 </div>
 
                 {/* Testimonial Cards */}
-                <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3 lg:mt-12 lg:gap-7">
+                <div className="mt-14 grid md:grid-cols-2 gap-10 xl:gap-20 lg:grid-cols-3 px-6 xl:px-0 justify-items-center">
                     {testimonials.map((testimonial) => (
                         <div
                             key={testimonial.name}
-                            className="rounded-[17px] bg-white p-4 shadow-[0_8px_30px_rgba(0,0,0,0.025)] sm:p-5"
+                            className="
+                                rounded-[22px]
+                                bg-white
+                                p-5
+                                shadow-[0_8px_30px_rgba(0,0,0,0.04)]
+                                ring-1 ring-black/[0.02]
+                            "
                         >
-                            {/* Profile */}
-                            <div className="flex items-center gap-3">
-                                <img
-                                    src={testimonial.image}
-                                    alt={testimonial.name}
-                                    className="h-14 w-14 rounded-full object-cover"
-                                />
+                            {/* Avatar */}
+                            <img
+                                src={testimonial.image}
+                                alt={testimonial.name}
+                                className="h-[68px] w-[68px] rounded-full object-cover"
+                            />
 
-                                <div>
-                                    <h3 className="text-[14px] font-bold text-black">
-                                        {testimonial.name}
-                                    </h3>
+                            {/* Name */}
+                            <h3 className="mt-5 text-base font-semibold text-gray-900">
+                                {testimonial.name}
+                            </h3>
 
-                                    <p className="mt-0.5 text-[12px] text-blue-600">
-                                        {testimonial.role}
-                                    </p>
-                                </div>
-                            </div>
+                            {/* Role */}
+                            <p className="mt-1 text-sm text-blue-600">
+                                {testimonial.role}
+                            </p>
 
                             {/* Testimonial */}
-                            <p className="mt-7 text-[13px] leading-[1.65] text-gray-600">
+                            <p className="mt-6 text-sm leading-7 tracking-wide text-gray-500">
                                 {testimonial.text}
                             </p>
                         </div>
