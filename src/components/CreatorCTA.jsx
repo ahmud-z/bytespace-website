@@ -13,7 +13,7 @@ const CreatorCTA = () => {
         >
 
 
-            {/* ================= 3D ORNAMENTS - LEFT SIDE ================= */}
+            {/*  3D ORNAMENTS - LEFT SIDE  */}
 
             <div>
                 <img
@@ -72,7 +72,7 @@ const CreatorCTA = () => {
             </div>
 
 
-            {/* ================= 3D ORNAMENTS - RIGHT SIDE ================= */}
+            {/*  3D ORNAMENTS - RIGHT SIDE  */}
 
             <div>
                 <img
@@ -117,7 +117,7 @@ const CreatorCTA = () => {
             </div>
 
 
-            {/* ================= CONTENT ================= */}
+            {/*  CONTENT  */}
 
             <div className="relative z-10 mx-auto flex min-h-[445px] max-w-5xl flex-col items-center justify-center px-6 text-center">
                 <h2 className="max-w-3xl text-3xl font-medium leading-[1.15] tracking-tight md:text-5xl">

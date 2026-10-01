@@ -2,17 +2,18 @@ import { students } from "../data/students";
 
 
 
-const HappyStudentsCard = () => {
+const HappyStudentsCard = ({ color }) => {
     return (
         <div
-            className="
-        relative w-full max-w-[710px]
-        rounded-[42px]
-        bg-white
-        px-8 py-8
-        shadow-[0_10px_35px_rgba(0,0,0,0.08)]
-        sm:px-11 sm:py-10
-      "
+            className={`
+    relative w-full max-w-[710px]
+    rounded-[42px]
+    ${color ? "bg-[#D4FB20]" : "bg-white"}
+    px-8 py-8
+    shadow-[0_10px_35px_rgba(0,0,0,0.08)]
+    sm:px-11 sm:py-10
+    overflow-hidden
+  `}
         >
             {/* Heading */}
             <h2
@@ -51,15 +52,7 @@ const HappyStudentsCard = () => {
                 {/* Avatars */}
                 <div className="flex">
                     {students.map((student, index) => (
-                        <div
-                            key={student.name}
-                            className={`
-                relative h-[82px] w-[82px]
-                overflow-hidden rounded-full
-                border-[2px] border-white
-                ${index !== 0 ? "-ml-[12px]" : ""}
-              `}
-                        >
+                        <div key={student.name} className={`relative h-[82px] w-[82px] overflow-hidden rounded-full border-[2px] border-white ${index !== 0 ? "-ml-[12px]" : ""}`}>
                             <img
                                 src={student.image}
                                 alt={student.name}
@@ -70,22 +63,9 @@ const HappyStudentsCard = () => {
                 </div>
 
                 {/* 2K+ circle */}
-                <div
-                    className="
-            relative z-10
-            -ml-[8px]
-            flex h-[118px] w-[118px]
-            shrink-0 items-center justify-center
-            rounded-full
-            bg-[#D4FB20]
-          "
-                >
+                <div className={`relative z-10 -ml-[8px] flex h-[118px] w-[118px] shrink-0 items-center justify-center rounded-full ${color ? "bg-black text-white" : "bg-[#D4FB20] text-black"}`}>
                     <span
-                        className="
-              text-[34px] font-medium
-              tracking-[-1px] text-[#202020]
-            "
-                    >
+                        className=" text-[34px] font-medium tracking-[-1px]">
                         2K+
                     </span>
                 </div>

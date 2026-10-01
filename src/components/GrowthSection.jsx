@@ -5,7 +5,7 @@ import CourseCard from "./CourseCard";
 const GrowthSection = () => {
     return (
         <section className="relative overflow-hidden bg-white px-3 pt-16 pb-14 lg:px-8 lg:pt-50 lg:pb-24">
-            {/* ================= BACKGROUND GLOW ================= */}
+            {/*  BACKGROUND GLOW  */}
 
             <div
                 className="
@@ -48,7 +48,7 @@ const GrowthSection = () => {
                 "
             />
 
-            {/* ================= MAIN CONTAINER ================= */}
+            {/*  MAIN CONTAINER  */}
 
             <div
                 className="
@@ -66,7 +66,7 @@ const GrowthSection = () => {
                     xl:gap-16
                 "
             >
-                {/* ================= LEFT CONTENT ================= */}
+                {/*  LEFT CONTENT  */}
 
                 <div className="flex min-w-0 flex-col justify-center text-left space-y-4">
                     <h2
@@ -104,7 +104,7 @@ const GrowthSection = () => {
                         career path entirely, we have the resources you need.
                     </p>
 
-                    {/* ================= STATS ================= */}
+                    {/*  STATS  */}
 
                     <div
                         className="
@@ -147,10 +147,10 @@ const GrowthSection = () => {
                     </div>
                 </div>
 
-                {/* ================= RIGHT VISUAL ================= */}
+                {/*  RIGHT VISUAL  */}
 
                 <div className="relative h-[280px] w-full min-w-0 md:h-[390px] lg:h-[470px] xl:h-[480px]">
-                    {/* ================= COURSE CARD ================= */}
+                    {/*  COURSE CARD  */}
 
                     <div
                         className="
@@ -173,7 +173,7 @@ const GrowthSection = () => {
                         />
                     </div>
 
-                    {/* ================= PERSON ================= */}
+                    {/*  PERSON  */}
 
                     <img
                         src="/avaters/male-student-photo.png"
@@ -199,7 +199,7 @@ const GrowthSection = () => {
                         "
                     />
 
-                    {/* ================= LEARNING PROGRESS ================= */}
+                    {/*  LEARNING PROGRESS  */}
 
                     <div
                         className="
@@ -241,7 +241,7 @@ const GrowthSection = () => {
                         </div>
                     </div>
 
-                    {/* ================= SPIRAL ================= */}
+                    {/*  SPIRAL  */}
 
                     <div className="absolute -right-3 -top-2 z-30 md:right-0 md:top-25 lg:-right-8 xl:-right-44 xl:top-2">
                         <img

@@ -112,16 +112,7 @@ const CourseCard = ({ title, image }) => {
                             />
 
                             <span
-                                className="
-                                    flex h-7 min-w-7 items-center
-                                    justify-center
-                                    rounded-full
-                                    border-2 border-white
-                                    bg-[#D4FB20]
-                                    px-1
-                                    text-[9px]
-                                    font-semibold
-                                    text-black
+                                className="flex h-7 min-w-7 items-center justify-center rounded-full border-2 border-white bg-[#D4FB20] px-1 text-[9px] font-semibold text-black
                                 "
                             >
                                 26+

@@ -21,29 +21,9 @@ const CreatorSection = () => {
                 xl:py-24
             "
         >
-            {/* ================= BACKGROUND GLOW ================= */}
+            {/*  BACKGROUND GLOW  */}
 
-            <div
-                className="
-                    pointer-events-none
-                    absolute
-                    -bottom-10
-                    -left-40
-                    h-[280px]
-                    w-[320px]
-                    rounded-full
-                    bg-[#CBFC01]/50
-                    blur-[90px]
-
-                    sm:h-[350px]
-                    sm:w-[400px]
-
-                    lg:-bottom-5
-                    lg:h-[350px]
-                    lg:w-[400px]
-                    lg:blur-[110px]
-                "
-            />
+            <div className="pointer-events-none absolute -bottom-10 -left-40 h-[280px] w-[320px] rounded-full bg-[#CBFC01]/50 blur-[90px] sm:h-[350px] sm:w-[400px] lg:-bottom-5 lg:h-[350px] lg:w-[400px] lg:blur-[110px]" />
 
             <div
                 className="
@@ -87,7 +67,7 @@ const CreatorSection = () => {
                 "
             />
 
-            {/* ================= MAIN CONTENT ================= */}
+            {/*  MAIN CONTENT  */}
 
             <div
                 className="
@@ -113,7 +93,7 @@ const CreatorSection = () => {
                     xl:gap-16
                 "
             >
-                {/* ================= LEFT VISUAL ================= */}
+                {/*  LEFT VISUAL  */}
 
                 <div
                     className="
@@ -132,7 +112,7 @@ const CreatorSection = () => {
                         xl:h-[540px]
                     "
                 >
-                    {/* ================= TOTAL REVENUE ================= */}
+                    {/*  TOTAL REVENUE  */}
 
                     <div
                         className="
@@ -220,7 +200,7 @@ const CreatorSection = () => {
                         </div>
                     </div>
 
-                    {/* ================= YEAR TO DATE ================= */}
+                    {/*  YEAR TO DATE  */}
 
                     <div
                         className="
@@ -317,7 +297,7 @@ const CreatorSection = () => {
                         </span>
                     </div>
 
-                    {/* ================= STUDENT IMAGE ================= */}
+                    {/*  STUDENT IMAGE  */}
 
                     <img
                         src="/avaters/female-student-photo.png"
@@ -344,7 +324,7 @@ const CreatorSection = () => {
                         "
                     />
 
-                    {/* ================= HAPPY STUDENTS ================= */}
+                    {/*  HAPPY STUDENTS  */}
 
                     <div
                         className="
@@ -375,7 +355,7 @@ const CreatorSection = () => {
                         <HappyStudentsCard />
                     </div>
 
-                    {/* ================= SPIRAL ================= */}
+                    {/*  SPIRAL  */}
 
                     <div
                         className="
@@ -393,8 +373,8 @@ const CreatorSection = () => {
                             lg:right-[15px]
                             lg:top-[45px]
 
-                            xl:right-[30px]
-                            xl:top-[55px]
+                            xl:right-[120px]
+                            xl:top-[95px]
                         "
                     >
                         <img
@@ -415,7 +395,7 @@ const CreatorSection = () => {
                     </div>
                 </div>
 
-                {/* ================= RIGHT CONTENT ================= */}
+                {/*  RIGHT CONTENT  */}
 
                 <div
                     className="
@@ -478,7 +458,7 @@ const CreatorSection = () => {
                         publication, and administration of educational courses.
                     </p>
 
-                    {/* ================= FEATURES ================= */}
+                    {/*  FEATURES  */}
 
                     <div
                         className="

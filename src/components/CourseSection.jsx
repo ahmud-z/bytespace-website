@@ -7,7 +7,7 @@ const CourseSection = () => {
         <section className="bg-white py-20 section-container">
             <div className="">
 
-                {/* ================= HEADER ================= */}
+                {/*  HEADER  */}
                 <div className="mx-auto max-w-3xl text-center">
 
                     <h1
@@ -44,7 +44,7 @@ const CourseSection = () => {
                     </p>
                 </div>
 
-                {/* ================= CATEGORIES ================= */}
+                {/*  CATEGORIES  */}
                 <div
                     className="
                         mx-auto mt-10
@@ -103,7 +103,7 @@ const CourseSection = () => {
                     </button>
                 </div>
 
-                {/* ================= COURSES ================= */}
+                {/*  COURSES  */}
                 <div
                     className="
                         mt-14
