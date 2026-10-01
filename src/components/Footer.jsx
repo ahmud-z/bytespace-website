@@ -43,7 +43,7 @@ const Footer = () => {
                     <div>
                         {/* Logo */}
                         <div className="flex flex-col">
-                            <img src="ByteSpaceLogoDark.png" alt="" className="w-40" />
+                            <img src="/brand-logo/ByteSpaceLogoDark.png" alt="" className="w-40" />
 
                             <p className="mt-4 text-sm leading-5 text-gray-500">
                                 Stay Up to date with our latest features and releases by joining
@@ -58,12 +58,12 @@ const Footer = () => {
                             <input
                                 type="email"
                                 placeholder="Enter your email"
-                                className="min-w-0 flex-1 border border-gray-300 rounded-full bg-transparent py-3 px-4 text-sm md:text-md text-gray-700 outline-none placeholder:text-gray-500"
+                                className="min-w-0 flex-1 border border-gray-300 rounded-full bg-transparent py-3 px-4 text-sm md:text-base text-gray-700 outline-none placeholder:text-gray-500"
                             />
 
                             <button
                                 type="button"
-                                className="rounded-full bg-[#D4FB20] px-7 py-2.5 text-sm md:text-md font-medium text-black transition hover:bg-[#D4FB20]"
+                                className="rounded-full bg-[#D4FB20] px-7 cursor-pointer hover:shadow py-2.5 text-sm md:text-base font-medium text-black transition hover:bg-[#D4FB20]"
                             >
                                 Search
                             </button>
@@ -103,7 +103,7 @@ const Footer = () => {
                 {/* Bottom Footer */}
                 <div className="flex flex-col gap-5 border-t text-sm border-gray-300 py-5 sm:flex-row sm:items-center sm:justify-between">
                     <p className="text-gray-500">
-                        © 2023 ByteSpace. All rights reserved.
+                        @ 2023 ByteSpace. All rights reserved.
                     </p>
 
                     <div className="flex flex-wrap gap-5 text-gray-500">

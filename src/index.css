@@ -7,3 +7,7 @@ body {
 .section-container {
   @apply max-w-7xl mx-auto;
 }
+
+.description-font {
+  font-family: satoshi;
+}
