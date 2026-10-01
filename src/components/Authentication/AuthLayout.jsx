@@ -6,7 +6,6 @@ const AuthLayout = ({ children, type = "register" }) => {
     const isRegister = type === "register";
 
     return (
-        <div className="bg-black px-0 sm:px-1">
             <div
                 className="
                     relative
@@ -14,6 +13,7 @@ const AuthLayout = ({ children, type = "register" }) => {
                     bg-[#073DE3]
                     bg-[linear-gradient(rgba(255,255,255,0.10)_2px,transparent_2px),linear-gradient(90deg,rgba(255,255,255,0.10)_2px,transparent_2px)]
                     bg-[size:107px_107px]
+                    min-h-screen
 
                 "
             >
@@ -46,13 +46,11 @@ const AuthLayout = ({ children, type = "register" }) => {
                         relative
                         mx-auto
                         flex
-                        min-h-screen
                         w-full
                         flex-col
                         section-container
                         items-center
                         px-5
-                        pb-10
                         pt-24
                         lg:flex-row
                         lg:items-start
@@ -110,9 +108,9 @@ const AuthLayout = ({ children, type = "register" }) => {
 
                         {/* Course preview */}
 
-                        <div className="mt-14">
-                            <CoursePreview />
-                        </div>
+                            <div className="mt-14">
+                                <CoursePreview />
+                            </div>
                     </div>
 
                     {/*  RIGHT SIDE  */}
@@ -131,7 +129,6 @@ const AuthLayout = ({ children, type = "register" }) => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 };
 
