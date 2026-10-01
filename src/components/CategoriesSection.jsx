@@ -5,7 +5,7 @@ export default function CategoriesSection() {
         <section className="pt-4 pb-26">
             <div className="section-container px-6 md-px-0">
 
-                {/* ================= HEADING ================= */}
+                {/*  HEADING  */}
                 <div className="mx-auto max-w-4xl text-center">
                     <h2
                         className="
@@ -44,7 +44,7 @@ export default function CategoriesSection() {
                     </p>
                 </div>
 
-                {/* ================= CATEGORIES ================= */}
+                {/*  CATEGORIES  */}
                 <div
                     className="
                         section-container

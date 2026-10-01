@@ -19,12 +19,11 @@ const Login = () => {
                     sm:px-10
                     sm:py-12
 
-                    lg:min-h-[697px]
                     lg:px-14
                     lg:py-14
                 "
             >
-                {/*  HEADER  */}
+                {/* ================= HEADER ================= */}
 
                 <p
                     className="
@@ -55,7 +54,7 @@ const Login = () => {
                     Welcome Back
                 </h1>
 
-                {/*  FORM  */}
+                {/* ================= FORM ================= */}
 
                 <form className="mt-10 space-y-5">
                     {/* Email */}
@@ -161,7 +160,7 @@ const Login = () => {
                     </div>
                 </form>
 
-                {/*  DIVIDER  */}
+                {/* ================= DIVIDER ================= */}
 
                 <div className="mt-16 flex items-center gap-3">
                     <div className="h-px flex-1 bg-gray-200" />
@@ -173,7 +172,7 @@ const Login = () => {
                     <div className="h-px flex-1 bg-gray-200" />
                 </div>
 
-                {/*  SOCIAL  */}
+                {/* ================= SOCIAL ================= */}
 
                 <div className="mt-8 flex justify-center gap-3">
                     <button
@@ -221,7 +220,7 @@ const Login = () => {
                     </button>
                 </div>
 
-                {/*  REGISTER  */}
+                {/* ================= REGISTER ================= */}
 
                 <p
                     className="

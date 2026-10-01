@@ -18,7 +18,7 @@ export default function Hero() {
         >
             <Navbar />
 
-            {/* ================= HERO CONTENT ================= */}
+            {/*  HERO CONTENT  */}
             <div
                 className="
                     relative z-10 mx-auto
@@ -113,7 +113,7 @@ export default function Hero() {
                 </div>
             </div>
 
-            {/* ================= GREEN CIRCLE ================= */}
+            {/*  GREEN CIRCLE  */}
             <div
                 className="
                     pointer-events-none
@@ -145,7 +145,7 @@ export default function Hero() {
                 "
             />
 
-            {/* ================= MAIN PERSON ================= */}
+            {/*  MAIN PERSON  */}
             <img
                 src="/avaters/male-student-photo.png"
                 alt="Student"
@@ -175,7 +175,7 @@ export default function Hero() {
 
 
 
-            {/* ================= 3D ORNAMENTS - LEFT SIDE ================= */}
+            {/*  3D ORNAMENTS - LEFT SIDE  */}
 
             <div>
                 <img
@@ -220,7 +220,7 @@ export default function Hero() {
             </div>
 
 
-            {/* ================= 3D ORNAMENTS - RIGHT SIDE ================= */}
+            {/*  3D ORNAMENTS - RIGHT SIDE  */}
 
             <div>
                 <img
@@ -264,7 +264,7 @@ export default function Hero() {
                 />
             </div>
 
-            {/* ================= UI/UX CARD ================= */}
+            {/*  UI/UX CARD  */}
             <div
                 className="
                     absolute z-30
@@ -304,7 +304,7 @@ export default function Hero() {
                 </p>
             </div>
 
-            {/* ================= LEARNING PROGRESS CARD ================= */}
+            {/*  LEARNING PROGRESS CARD  */}
             <div
                 className="
                     absolute z-30

@@ -19,7 +19,6 @@ const Register = () => {
                     sm:px-10
                     sm:py-12
 
-                    lg:min-h-[697px]
                     lg:px-14
                     lg:py-14
                 "
@@ -67,7 +66,7 @@ const Register = () => {
 
                         <input
                             type="text"
-                            placeholder="designer@example.com"
+                            placeholder="Jamie Davis"
                             className="
                                 h-12
                                 w-full
