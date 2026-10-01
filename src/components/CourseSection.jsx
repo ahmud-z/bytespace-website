@@ -94,7 +94,7 @@ const CourseSection = () => {
                             px-5 py-2.5
                             text-sm font-medium
                             cursor-pointer
-                            text-blue-600
+                            text-blue-700
                             transition-colors
                             hover:bg-blue-50
                         "

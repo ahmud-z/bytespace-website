@@ -28,13 +28,7 @@ const CommunityTestimonials = () => {
                     {/* Description */}
                     <div className="lg:pl-8">
                         <p className="max-w-xl text-sm leading-8 text-gray-500 md:text-base">
-                            At ByteSpace, our vibrant community of learners and
-                            creators is at the heart of what we do. Hear directly
-                            from those who have experienced the transformative
-                            journey of learning and creating on our platform.
-                            Explore testimonials that reflect the diverse
-                            perspectives of enthusiastic learners and accomplished
-                            creators.
+                            At ByteSpace, our vibrant community of learners and creators is at the heart of what we do. Hear directly from those who have experienced the transformative journey of learning and creating on our platform. Explore testimonials that reflect the diverse perspectives of enthusiastic learners and accomplished creators.
                         </p>
                     </div>
                 </div>
@@ -47,8 +41,9 @@ const CommunityTestimonials = () => {
                             className="
                                 rounded-[22px]
                                 bg-white
-                                p-5
-                                shadow-[0_8px_30px_rgba(0,0,0,0.04)]
+                                p-6
+                                shadow-sm
+                                hover:shadow-md
                                 ring-1 ring-black/[0.02]
                             "
                         >
@@ -65,12 +60,12 @@ const CommunityTestimonials = () => {
                             </h3>
 
                             {/* Role */}
-                            <p className="mt-1 text-sm text-blue-600">
+                            <p className="mt-1 text-sm text-blue-700">
                                 {testimonial.role}
                             </p>
 
                             {/* Testimonial */}
-                            <p className="mt-6 text-sm leading-7 tracking-wide text-gray-500">
+                            <p className="mt-6 text-[16px] description-font leading-7 tracking-wide text-gray-500">
                                 {testimonial.text}
                             </p>
                         </div>
